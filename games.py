@@ -4,6 +4,7 @@ def main():
     print("1. Kertas")
     print("2. Batu")
     print("3. Gunting")
+    print("4. Keluar")
 
     pilih = int(input("Masukkan Pilihan Anda: "))
 
@@ -52,6 +53,9 @@ def main():
             print("Komputer Memilih Gunting")
             print("Seri!")
 
+    elif pilih == 4:
+        print("Terima Kasih")
+        exit()
     else:
         print("Pilihan Tidak Tersedia")
 
